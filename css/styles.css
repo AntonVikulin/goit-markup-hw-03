@@ -132,7 +132,6 @@ h1 {
 
 .hero {
   background: #2f303a;
-  flex-direction: main-size;
 }
 
 .hero > h1 {
