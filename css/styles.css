@@ -39,7 +39,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  background: #e5e5e5;
+
   color: var(--color-1);
 }
 
@@ -54,6 +54,7 @@ header {
 header > .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-header {
@@ -117,7 +118,7 @@ header > .container {
 }
 
 main > section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 h1 {
@@ -132,11 +133,14 @@ h1 {
 
 .hero {
   background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.hero > h1 {
+.hero div > h1 {
   display: block;
   text-align: center;
+  align-items: center;
   margin: auto;
 
   width: 696px;
@@ -144,7 +148,11 @@ h1 {
 }
 
 .hero-button {
-  display: block;
+  display: flex;
+  border-style: none;
+  outline: none;
+  padding: 10px 32px;
+
   background: var(--color-4);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -156,7 +164,7 @@ h1 {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-
+  margin: auto;
   display: flex;
   align-items: center;
   text-align: center;
@@ -257,17 +265,16 @@ h1 {
 
 footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer > .container {
   display: flex;
-  height: 252px;
 }
 
 address {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .address-ul {
@@ -312,7 +319,7 @@ button {
 /* portfolio start */
 
 .section {
-  margin-top: 114px;
+  padding-top: 114px;
 }
 
 .h1-none {
@@ -335,6 +342,7 @@ button {
 
 .buttons-touch {
   font-weight: 500;
+  padding: 6px 22px;
   border-radius: 4px;
   border: none;
   color: var(--color-1);
@@ -346,6 +354,7 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: none;
   color: var(--color-2);
 }
 
@@ -364,11 +373,16 @@ button {
   margin-bottom: 20px;
 }
 
+.list-group {
+  width: 322px;
+  height: 70px;
+  margin: 20px 24px 0px;
+}
+
 .list p {
   margin-top: 0px;
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
+
   width: 320px;
   font-size: 18px;
   line-height: 2;
@@ -378,7 +392,7 @@ button {
 
 .list a {
   display: flex;
-  margin: 0px 24px 20px 24px;
+
   width: 320px;
   font-size: 16px;
   line-height: 1.87;
